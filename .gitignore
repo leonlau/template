@@ -1,0 +1,9 @@
+### go template template
+
+*~
+.DS_Store
+.idea/
+.idea_modules/
+
+log/
+vendor/
