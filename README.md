@@ -5,9 +5,7 @@
 ```
 ├── admin.sh                     # 进程的start|stop|status|restart控制文件
 ├── conf                         # 配置文件统一存放目录
-│   ├── config.yaml              # 配置文件
-│   ├── server.crt               # TLS配置文件
-│   └── server.key
+│   └── config.yaml              # 配置文件
 ├── config                       # 专门用来处理配置和配置文件的Go package
 │   └── config.go
 ├── db.sql                       # 在部署新环境时，可以登录MySQL客户端，执行source db.sql创建数据库和表
